@@ -1,0 +1,27 @@
+/*************************************************************
+TEXT STYLES
+**************************************************************/
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #0c071a;
+}
+
+h1 {
+    font-family: url(../style/fonts/Selima\ .ttf);
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
