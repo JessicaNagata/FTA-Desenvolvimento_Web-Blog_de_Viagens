@@ -1,14 +1,28 @@
-section#brasil_banner{
+#brasil_banner {
     background-image: url(../imagens/brasil_banner.png);
     padding-top: 10%;
     background-size: 100%;
     position: relative;
 }
-h1{
+
+h1 {
     text-align: center;
     color: rgb(173, 14, 126);
     background-color: rgb(247, 243, 243);
     opacity: 70%;
     margin-top: 30%;
 
+}
+
+h2{
+    margin: 5% 10%;
+    color: rgb(73, 69, 69);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(173, 14, 126);
+    font-size: 20px;
+    text-align: left;
+}
+img{
+    margin: 0% 10%;
+    width: 80%;
 }
