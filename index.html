@@ -2,33 +2,47 @@
 <html lang="pt-br">
 
 <head>
+  <meta charset="UTF-8" />
   <title> Viagens dos Sonhos</title>
 
   <!-- VINCULA CSS NA PÁGINA  -->
-  <link rel="icon" type="imagem/png" href="../BLOG CURSO HTML/imagens/viagens-_3_.ico" />
+  <link rel="icon" type="imagem/png" href="../BLOG CURSO HTML/imagens/favicon.ico" />
   <link rel="stylesheet" href="style/main.css" />
   <link rel="stylesheet" href="style/navbar.css" />
   <link rel="stylesheet" href="style/sobre.css" />
   <link rel="stylesheet" href="style/banner.css" />
+  <link rel="stylesheet" href="style/footer.css" />
 
-
-
-  <!-- GALERIA DE ICONES -->
-
-
+  <!-- VINCULA BIBLIOTECA DE ICONES NA PÁGINA  -->
+  <link href="../BLOG CURSO HTML/style/fontawesome/css/all.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
     <div id="logo"><a href="#"><img src="../BLOG CURSO HTML/imagens/logo.ico"></a></div>
-    <nav>
+    <nav class="dp-menu">
       <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Viagens</a></li>
-        <li><a href="#">Sonhos</a></li>
+        <li><a href="#sobre">Quem escreve</a></li>
+        <li><a href="#">Viagens</a>
+          <ul>
+            <li><a href="../BLOG CURSO HTML/pages/brasil.html">Brasil</a></li>
+            <li><a href="../BLOG CURSO HTML/pages/mexico.html">México</a></li>
+            <li><a href="../BLOG CURSO HTML/pages/chile.html">Chile</a></li>
+            <li><a href="../BLOG CURSO HTML/pages/japao.html">Japão</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Sonhos</a>
+          <ul>
+            <li><a href="../BLOG CURSO HTML/pages/india.html">Índia</a></li>
+            <li><a href="../BLOG CURSO HTML/pages/maldivas.html">Maldivas</a></li>
+            <li><a href="../BLOG CURSO HTML/pages/grecia.html">Grécia</a></li>
+            <li><a href="../BLOG CURSO HTML/pages/egito.html">Egito</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
- </header>
+  </header>
+
   <!--=============================================================================================================== -->
   <!-- ============================================================================================================== -->
   <!-- B A N N E R -->
@@ -46,38 +60,54 @@
   <!-- ============================================================================================================== -->
   <!-- ============================================================================================================== -->
   <section id="sobre">
+    <h3>Quem escreve?</h3>
+    <p>
+      Jéssica Nagata é Sorocabana, casada, estudante da área de TI e trabalha como estagiaria em uma das maiores e mais
+      importantes empresas de sua cidade.
+      Com 31 anos, já foi empresária no ramo alimentício e teve a oportunidade de morar fora, durante 4 anos viveu uma
+      experiência de morar no Japão, em
+      busca de seus objetivos tal como conhecer a cultura e colecionar momentos memoráveis.
+      Apaixonada por viagens já conheceu 3 países além do seu amado Brasil, México, Chile e Japão.
+    </p>
+
+    <img class="sobre" src="../BLOG CURSO HTML/imagens/sobre_eu.jpg">
+
+    <p>
+      Durante uma atividade proposta em um curso de Desenvolvimento Web oferecido pela empresa onde trabalha, cuja
+      proposta seria desenvolver um blog, se deixou levar pela paixão e o sonho de conhecer diversos países e culturas,
+      e escolheu abordar como assunto a sua temática favorita, assim, com o objetivo de compartilhar suas experiências
+      de viagens e também dividir com o leitor
+      alguns de seus destinos mais almejados, nasce o Blog Viagens dos Sonhos.
+    </p>
+
+    <img class="sobre" src="../BLOG CURSO HTML/imagens/logo.png">
+
+    <p>Seja bem-vindo. </p>
+    <p>Boa leitura e ótimas viagens a você!</p>
+
+    <button><a href="#">Topo</a></button>
+
   </section>
 
   <!--=============================================================================================================== -->
   <!-- ============================================================================================================== -->
-  <!-- F E I T A S -->
+  <!-- R O D A P E -->
   <!-- ============================================================================================================== -->
   <!-- ============================================================================================================== -->
-  <section id="feitas">
-  </section>
-
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- S O N H O S -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <section id="soonhos">
-  </section>
-
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- S O B R E -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <section id="sobre">
-  </section>
-
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- S O B R E -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <section id="sobre">
+  <section id="footer">
+    <footer>
+      <ul id="redesSociais">
+        <li class="redeItem"><a href="https://www.instagram.com/nagatajessica/" target="_blank"><i
+              class="fab fa-instagram"></i></a></li>
+        <li class="redeItem"><a href="https://pt-br.facebook.com/jessica.marquesthomaz" target="_blank"><i
+              class="fab fa-facebook-f"></i></a></li>
+        <li class="redeItem"><a href="https://br.linkedin.com/in/j%C3%A9ssica-marques-nagata-08935a1b1"
+            target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="redeItem"><a href="https://github.com/JessicaNagata" target="_blank"><i
+              class="fab fa-github"></i></a></li>
+      </ul>
+      <h4>Desenvolvido por Jéssica Marques Nagata</h4>
+    </footer>
   </section>
 </body>
 

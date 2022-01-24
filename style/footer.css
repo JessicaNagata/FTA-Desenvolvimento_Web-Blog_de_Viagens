@@ -1,0 +1,28 @@
+#footer{
+position: relative;
+margin-bottom: 0%;
+background-color: rgb(73, 69, 69);
+width: 100%;
+height: 100px;
+text-align: center;
+padding-top: 2%;
+}
+
+.redesSociais{
+    display: inline-block;
+}
+
+.redeItem{
+    position: relative;
+}
+
+i{
+    padding: 1%;
+    color: white;
+    font-size: 120%;
+}
+
+i:hover{
+    transform: scale(1.2);
+    background-color: #9b0f7c;
+}

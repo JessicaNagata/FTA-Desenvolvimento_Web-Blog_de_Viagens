@@ -8,12 +8,13 @@ header a {
     text-decoration: none;
     color: rgb(241, 236, 236);
     vertical-align: middle;
+    font-size: 100%;
 
 }
 
 header {
     padding: 0 5px;
-    background-color: rgb(73, 69, 69);;
+    background-color: rgb(73, 69, 69);
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -34,4 +35,58 @@ img {
 li {
     display: inline;
     margin-right: 5%;
+    position: absolute;
+    z-index: 1;
+}
+:root {
+    --cor-hover: #9b0f7c;
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: rgb(73, 69, 69);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+    
+}
+
+.dp-menu ul li a {
+    
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .4s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 130%;
+    position: absolute;
+}
+
+.dp-menu ul ul li a {
+    display: block;
 }

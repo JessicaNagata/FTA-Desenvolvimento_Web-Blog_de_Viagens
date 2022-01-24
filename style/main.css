@@ -1,6 +1,21 @@
 /*************************************************************
 TEXT STYLES
 **************************************************************/
+button {
+    background-color: rgb(73, 69, 69);
+    border: none;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5% 46%;
+    display: inline-block;
+    transition-duration: 0.4s;
+
+}
+
+button:hover {
+    background-color: #9b0f7c;
+}
+
 body {
     margin: 0%;
     font-family: sans-serif;
@@ -9,18 +24,52 @@ body {
     color: #0c071a;
 }
 
+
+section {
+    margin-bottom: 10%;
+
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(73, 69, 69);
+    font-weight: 200;
+}
+
 h1 {
-    font-family: url(../style/fonts/Selima\ .ttf);
-    font-size: 100px;
+    padding-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
     font-style: normal;
     font-weight: 400;
     color: white;
+
 }
 
 h2 {
     font-family: Roboto;
     text-transform: uppercase;
     font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(94, 1, 47);
+    text-align: center;
+}
+h4{
+    font-size: 10px;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     color: white;

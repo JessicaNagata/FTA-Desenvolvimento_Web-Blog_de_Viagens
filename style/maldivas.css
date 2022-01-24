@@ -1,0 +1,14 @@
+section#maldivas_banner{
+    background-image: url(../imagens/maldivas_banner.png);
+    padding-top: 10%;
+    background-size: 100%;
+    position: relative;
+}
+h1{
+    text-align: center;
+    color: rgb(173, 14, 126);
+    background-color: rgb(247, 243, 243);
+    opacity: 70%;
+    margin-top: 30%;
+
+}

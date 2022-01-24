@@ -1,0 +1,17 @@
+
+.sobre{
+    width: 50%;
+    padding: 3% 10%;
+    margin-left: 15%;
+    align-items: center;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+}
+img{
+    border-radius: 20%;
+}
