@@ -1,14 +1,11 @@
 section#banner{
     padding-top: 10%;
     background-image: url(../imagens/bannerCabecalho.png);
-    background-size: auto;
     position: relative;
 
 }
 h1{
-    vertical-align: middle;
     text-align: center;
-
 }
 
 h2{

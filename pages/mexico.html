@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../style/mexico.css" />
   <link rel="stylesheet" href="../style/footer.css" />
   <link rel="stylesheet" href="../style/sobre.css" />
+  <link rel="stylesheet" href="../style/carousel.css" />
 
 
   <!-- VINCULA BIBLIOTECA DE ICONES NA PÁGINA  -->
@@ -61,16 +62,94 @@
   <!-- ============================================================================================================== -->
   <!-- ============================================================================================================== -->
   <section id="sobre">
+    <h3>Cancún - México</h3>
+      <div class="texto">
+        <p>Viajamos em Lua de Mel durante 14 dias em Agosto de 2012, sem sombra de dúvidas foi o lugar mais surreal que já pude conhecer na vida,
+          e com toda a certeza pretendo voltar para desfrutar de tudo novamente nesse verdadeito paraíso.
+        </p>
+        <p>Conhecemos diversos restaurantes incríveis, um dos fortes deles é a gastronomia com toda a certeza, além de barzinhos muito badalados, como o Señor Frog's que é temático, muito bacana mesmo, mas também aproveitamos o clima de Lua de mel para descansar bastante, curtir a piscina e aproveitar a praia. Assim, alternamos dias de descanso 
+          no hotel, com algumas baladinhas (afinal estávamos em Cancún) e passeios. Abaixo descreverei os passeios que fizemos, o que achamos de 
+          cada um deles, e o que faríamos diferente.</p>
+      <p>Balada Coco Bongo - 
+        O Coco Bongo é uma balada/festa totalmente diferente do normal! Todos que estão em Cancún visitam o Coco Bongo e o público varia dos 18 
+        aos 60 anos de idade (rs). Famílias, casais novos, casais mais velhos, é uma festa! O ingresso que custa em torno de 70USD com direito a bebidas à vontade a noite toda. Para ser bem servido é interessante dar uma caixinha para o garçom logo no início da noite, assim você garante o serviço mesmo quando a balada já estiver cheia. O show começa pontualmente às 23hs e dura em torno de 3 horas. Há uma grande mistura de músicas badaladas, clássicas e também performances dos artistas e dançarinos.</p>
+      <p>Chichén-Itzá: as incríveis ruínas Maias - Chichén-Itzá é uma cidade arqueológica Maia, umas das maiores da época em toda a região. Nós adoramos e RECOMENDAMOS muito a visita!</p>
+      <p>X-Caret: o parque de diversões mais famoso da região - Um dos passeios mais procurados por quem viaja para Cancun é a visita ao Xcaret, um grande parque ecológico localizado na Riviera Maya junto ao mar do caribe mexicano que oferece dezenas de atividades que envolvem natureza e cultura, com muitos animais, praia privativa, rios subterrâneos, apresentações artísticas, tradições mexicanas, gastronomia e muita diversão.</p>
+    <p>Isla Mujeres - A ilha fica a mais ou menos uma hora de barco e o trajeto é  super divertido com direito a músicas e bebidas inclusas e tripulação animada!Paramos em uma parte da ilha onde havia uma praia e um restaurante com alimentação inclusa. Fizemos snorkel (incluso no pacote, porém bem rápido, cerca de 20 minutos). Depois do almoço seguimos para o centro de Isla Mujeres onde tem várias lojas com vendedores bem insistentes (já viram que vendedores insistentes é algo bem comum na região, né?!).</p>
+    <p>X-Plor - O parque tem mais de 18 tirolesas, rio subterrâneo, onde pode ser feito rafting ou simplesmente nadar, e também há buggies para andar em uma trilha. Nossa atração preferida foi um percurso de tirolesas com direito a um tobogã que caia na água, foi muito gostoso.</p>
+    <p>Com toda a certeza essa foi a viagem mais apaixonante da minha vida, sem contar o clima romântico da Lua de Mel.</p>
+    </div>
+  
+  
+      <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="../imagens/cancun1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="../imagens/cancun2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="../imagens/cocobongo.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="../imagens/isla.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="../imagens/shopping.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="../imagens/tulum.png" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="../imagens/cancun1.png" style="width:100%" onclick="currentSlide(1)" alt="Señor Frog's">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../imagens/cancun2.png" style="width:100%" onclick="currentSlide(2)" alt="X-Plor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../imagens/cocobongo.png" style="width:100%" onclick="currentSlide(3)" alt="Coco Bongo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../imagens/isla.png" style="width:100%" onclick="currentSlide(4)" alt="Isla Mujeres">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../imagens/shopping.png" style="width:100%" onclick="currentSlide(5)" alt="Shopping Plaza la Isla">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="../imagens/tulum.png" style="width:100%" onclick="currentSlide(6)" alt="Tulum">
+    </div>
+  </div>
+</div>
+      <button><a href="#">Topo</a></button>
   </section>
 
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- C A R O U S E L -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <section id="viagens">
-  </section>
-
+  
   <!--=============================================================================================================== -->
   <!-- ============================================================================================================== -->
   <!-- R O D A P E -->
@@ -91,6 +170,13 @@
       <h4>Desenvolvido por Jéssica Marques Nagata</h4>
     </footer>
   </section>
+
+  <!--=============================================================================================================== -->
+  <!-- ============================================================================================================== -->
+  <!-- S C R I P T S -->
+  <!-- ============================================================================================================== -->
+  <!-- ============================================================================================================== -->
+  <script type="text/javascript" src="../main.js"></script>
 
   
 </body>

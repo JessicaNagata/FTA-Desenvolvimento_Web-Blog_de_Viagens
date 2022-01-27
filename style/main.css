@@ -2,6 +2,11 @@
 TEXT STYLES
 **************************************************************/
 
+
+img{
+    width: 100%;
+}
+
 button {
     background-color: rgb(73, 69, 69);
     border: none;
@@ -9,7 +14,7 @@ button {
     transition-duration: 0.4s;
     position: fixed;
     right: 0;
-    top: 80%;
+    top: 70%;
     width: 6.5em;
     margin-top: -2.5em;
 
@@ -28,15 +33,14 @@ body {
 }
 
 
-section {
-    margin-bottom: 10%;
-
+#sobre {
+    padding-bottom: 10%;
 }
 
-p {
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 120%;
+
+.texto {
+    padding: 0% 10%;
+    font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(73, 69, 69);
     font-weight: 200;

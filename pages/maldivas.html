@@ -3,15 +3,16 @@
 
 <head>
   <title> Viagens dos Sonhos</title>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
 
   <!-- VINCULA CSS NA PÁGINA  -->
-  <link rel="icon" type="imagem/png" href="../imagens/favicon.ico"/>
+  <link rel="icon" type="imagem/png" href="../imagens/favicon.ico" />
   <link rel="stylesheet" href="../style/main.css" />
   <link rel="stylesheet" href="../style/navbar.css" />
   <link rel="stylesheet" href="../style/maldivas.css" />
   <link rel="stylesheet" href="../style/footer.css" />
   <link rel="stylesheet" href="../style/sobre.css" />
+  <link rel="stylesheet" href="../style/carousel.css" />
 
 
   <!-- VINCULA BIBLIOTECA DE ICONES NA PÁGINA  -->
@@ -61,14 +62,126 @@
   <!-- ============================================================================================================== -->
   <!-- ============================================================================================================== -->
   <section id="sobre">
-  </section>
+    <h3>Maldivas</h3>
+    <div class="texto">
+      <p>As ilhas Maldivas se encontram no Oceano Índico, ao sul da Ásia e ao sudoeste do Sri Lanka e da Índia. O
+        território indiano de Laquedivas é o único a fazer fronteira direta com o arquipélago. Composto por 1.196 ilhas,
+        tem lugar de sobra para conhecer durante a sua viagem.
 
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- C A R O U S E L -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <section id="viagens">
+        Como você pode imaginar, a maior parte do arquipélago é coberta por água — mais precisamente 98%. Essas ilhas se
+        encontram em um território com extensão de 90 mil km2, com 26 atóis, bancos de areia e recifes de corais. De um
+        extremo a outro, são 820 km de distância.
+
+        Além de ter um cenário encantador, as ilhas Maldivas detêm um marco importante: o de país com a altitude mais
+        baixa entre as nações do globo. São 2,3 metros acima do mar nas áreas mais altas (que respondem a 1% do
+        território), enquanto a média fica em torno de 1,5 metros.
+
+        Esse é também o menor e menos populoso país da Ásia. Das ilhas que compõem o arquipélago, somente 203 são
+        habitadas. Ao longo de sua história, as Maldivas foram colônia de Portugal, Holanda e Grã-bretanha. Sua
+        independência veio em 1965 e, 3 anos mais tarde, houve a declaração da república.
+
+        Conhecer essas e outras curiosidades é bem interessante antes de arrumar as malas e partir rumo às Maldivas,
+        concorda? Então, veja mais alguns detalhes sobre o arquipélago. <p>Praias -
+          As praias das Maldivas têm temperaturas de 27ºC e 29ºC, sobretudo nos períodos mais quentes do ano. Pela
+          extensão do arquipélago, será difícil conhecer todas elas — o comum é aproveitar os dias nas áreas reservadas
+          do hotel ou resort.
+
+          Para quem quer aproveitar o surf feminino ou masculino, também há praias indicadas para o esporte. Vale
+          escolher datas entre maio e outubro, caso o seu objetivo para a viagem seja esse.
+
+          Lembre-se de que, por conta dos costumes muçulmanos, é preciso cuidar da vestimenta até nas praias. Há
+          indicações em placas sobre a proibição de biquinis em diversas praias públicas. Por mais calor que esteja a
+          região, é importante cobrir dos ombros aos joelhos e evitar qualquer decote. Para uso de trajes de banho,
+          procure as praias liberadas.</p>
+        <p>Como se locomover entre as ilhas? - 
+          Como o arquipélago tem somente 2% de superfície terrestre, esse tipo de transporte é pouco comum. Geralmente,
+          os barcos são usados para ir de uma ilha a outra. Há os públicos, que passam com menor frequência e custam
+          poucos centavos de dólares. O inconveniente é não ter traslados às sextas (dia de folga na cultura local) e
+          trajetos limitados.
+
+          Já os barcos privados podem ser compartilhados e acabam tendo bom custo-benefício. São mais rápidos e estão
+          disponíveis 24 horas por dia. Do aeroporto ao centro da capital Malé, por exemplo, o valor é de 2 dólares, e
+          as embarcações saem a cada 5 minutos. Ainda existem os hidroaviões, opções bem mais caras para quem não opta
+          por um pacote de viagem.</p>
+
+          <p>Resumindo...Um verdadeiro destino para uma Viagem dos Sonhos (mas vale preparar o bolso rs...)!!!</p>
+      </p>
+    </div>
+
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../imagens/submarino.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../imagens/grand.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../imagens/sultan.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../imagens/restaurante_sub.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../imagens/banana.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../imagens/hulhumale.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../imagens/submarino.png" style="width:100%"
+            onclick="currentSlide(1)" alt="Mergulho de Submarino">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/grand.png" style="width:100%"
+            onclick="currentSlide(2)" alt="Grand Friday Mosque">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/sultan.png" style="width:100%" onclick="currentSlide(3)"
+            alt="Sultan Park">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/restaurante_sub.png" style="width:100%" onclick="currentSlide(4)"
+            alt="Restaurante Subaquático">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/banana.png" style="width:100%" onclick="currentSlide(5)"
+            alt="Esportes aquáticos - Banana Boat">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/hulhumale.png" style="width:100%" onclick="currentSlide(6)"
+            alt="Hulhumale Beach">
+        </div>
+      </div>
+    </div>
+
+    <button><a href="#">Topo</a></button>
   </section>
 
   <!--=============================================================================================================== -->
@@ -92,7 +205,14 @@
     </footer>
   </section>
 
-  
+  <!--=============================================================================================================== -->
+  <!-- ============================================================================================================== -->
+  <!-- S C R I P T S -->
+  <!-- ============================================================================================================== -->
+  <!-- ============================================================================================================== -->
+  <script type="text/javascript" src="../main.js"></script>
+
+
 </body>
 
 </html>

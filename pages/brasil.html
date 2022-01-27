@@ -60,139 +60,624 @@
   <!-- S O B R E -->
   <!-- ============================================================================================================== -->
   <!-- ============================================================================================================== -->
-  <section id="sobreBrasil">
+  <section id="sobre">
     <h3>Meu Brasil</h3>
-    <p>Lugares para viajar no Brasil é o que não falta! Nosso país tem uma diversidade maravilhosa, paisagens
-      deslumbrantes e cidades que oferecem as mais variadas qualidades. <p>Alguns destinos se destacam por sua boa
-        estrutura e outros por sua grande quantidade de atrativos, e com tantas opções sempre haverá um novo destino
-        no país para explorar e se apaixonar.</p>
-      <p>Tive a oportunidade de conhecer alguns desses destinos, vou compartilhar com vocês um pouco sobre cada um
-        deles.</p>
-    </p>
-
+    <div class="texto">
+      <p>Lugares para viajar no Brasil é o que não falta! Nosso país tem uma diversidade maravilhosa, paisagens
+        deslumbrantes e cidades que oferecem as mais variadas qualidades. <p>Alguns destinos se destacam por sua boa
+          estrutura e outros por sua grande quantidade de atrativos, e com tantas opções sempre haverá um novo destino
+          no país para explorar e se apaixonar.</p>
+        <p>Tive a oportunidade de conhecer alguns desses destinos, vou compartilhar com vocês um pouco sobre cada um
+          deles.</p>
+      </p>
+    </div>
     <h2>Fortaleza / Ceará</h2>
-    <img class="img_locais" src="../imagens/fortaleza_beach_park.png">
-    <p>Uma das minhas primeiras viagens, ainda muito pequena, foi para Fortaleza - Ceará. Minha família do lado materno
-      é toda de lá, minha avó mora na capital, então sempre que possível fazemos uma visita a ela e aproveitamos para
-      curtir
-      esse verdadeiro paraíso.
-      <p>Fortaleza é uma cidade que pode apresentar o melhor de dois mundos: áreas urbanizadas e desenvolvidas ou a
-        facilidade
-        de ir para praias pacatas, ideais para quem busca descanso. Com um litoral tão diverso como o cearense, muitas
-        pessoas
-        aproveitam a oportunidade para explorar diferentes praias do Estado, cada uma com uma beleza peculiar. Vale um
-        destaque
-        especial para o Beach Park (foto acima), considerado um dos melhores parques aquáticos do mundo, une uma
-        estrutura de ponta,
-        diversão
-        e o cenário espetacular do litoral brasileiro! Esse lugar é simplesmente incrível, e tem atrações para todas as
-        idades.</p>
-    </p>
+
+
+    <div class="texto">
+      <p>Uma das minhas primeiras viagens, ainda muito pequena, foi para Fortaleza - Ceará. Minha família do lado
+        materno
+        é toda de lá, minha avó mora na capital, então sempre que possível fazemos uma visita a ela e aproveitamos para
+        curtir
+        esse verdadeiro paraíso.
+        <p>Fortaleza é uma cidade que pode apresentar o melhor de dois mundos: áreas urbanizadas e desenvolvidas ou a
+          facilidade
+          de ir para praias pacatas, ideais para quem busca descanso. Com um litoral tão diverso como o cearense, muitas
+          pessoas
+          aproveitam a oportunidade para explorar diferentes praias do Estado, cada uma com uma beleza peculiar. Vale um
+          destaque
+          especial para o Beach Park (foto acima), considerado um dos melhores parques aquáticos do mundo, une uma
+          estrutura de ponta,
+          diversão
+          e o cenário espetacular do litoral brasileiro! Esse lugar é simplesmente incrível, e tem atrações para todas
+          as
+          idades.</p>
+      </p>
+    </div>
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../imagens/fortaleza_beach_park.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../imagens/fortaleza_canoa_quebrada.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../imagens/fortaleza_theatro.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../imagens/fortaleza_feiraDeArtesanato.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../imagens/fortaleza_mercadoCentral.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../imagens/canoa_fortaleza.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../imagens/fortaleza_beach_park.png" style="width:100%"
+            onclick="currentSlide(1)" alt="Beach Park">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/fortaleza_canoa_quebrada.png" style="width:100%"
+            onclick="currentSlide(2)" alt="Canoa Quebrada">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/fortaleza_theatro.png" style="width:100%" onclick="currentSlide(3)"
+            alt="Theatro José de Alencar">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/fortaleza_feiraDeArtesanato.png" style="width:100%" onclick="currentSlide(4)"
+            alt="Feira de Artesanato">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/fortaleza_mercadoCentral.png" style="width:100%" onclick="currentSlide(5)"
+            alt="Mercado Central">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/canoa_fortaleza.png" style="width:100%" onclick="currentSlide(6)"
+            alt="Praia do Futuro">
+        </div>
+      </div>
+    </div>
+
 
     <h2>Porto Seguro / Bahia</h2>
-    <img class="img_locais" src="../imagens/porto_seguro-bahia.jpg">
-    <p>Uma das minhas primeiras viagens, ainda muito pequena, foi para Fortaleza - Ceará. Minha família do lado materno
-      é toda de lá, minha avó mora na capital, então sempre que possível fazemos uma visita a ela e aproveitamos para
-      curtir
-      esse verdadeiro paraíso.
-      <p>Fortaleza é uma cidade que pode apresentar o melhor de dois mundos: áreas urbanizadas e desenvolvidas ou a
-        facilidade
-        de ir para praias pacatas, ideais para quem busca descanso. Com um litoral tão diverso como o cearense, muitas
-        pessoas
-        aproveitam a oportunidade para explorar diferentes praias do Estado, cada uma com uma beleza peculiar. Vale um
-        destaque
-        especial para o Beach Park (foto acima), considerado um dos melhores parques aquáticos do mundo, une uma
-        estrutura de ponta,
-        diversão
-        e o cenário espetacular do litoral brasileiro! Esse lugar é simplesmente incrível, e tem atrações para todas as
-        idades.</p>
-    </p>
+
+    <div class="texto">
+      <p>Aos meus 10 anos, viagei em família para Porto Seguro, saímos de carro da nossa cidade, Sorocaba no interior de
+        São Paulo,
+        meu pai, como um bom motorista carreteiro apaixonado pelas estradas, sempre preferiu fazer viagens pelo Brasil
+        de carro,
+        então desde pequena acompanho esse gosto, o interessante é poder ir parando em diversos pontos de interesse,
+        nessa viagem,
+        por exemplo, paramos no Espiríto Santo, mas essa parte da viagem será abordada em seguida.
+      </p>
+      <p>Em Porto Seguro, nos hospedamos em uma pousada muito aconchegante na Praia Coroa Vermelha, uma praia histórica
+        já que
+        foi o ponto de chegada do navegador português Pedro Álvares Cabral. Conhecemos a Cruz da primeira missa, fizemos
+        passeios de escuna, comemos muitas comidas regionais, já
+        que ali próximo tinham muitas opções de restaurantes/quiosques e também uma feirinha onde amava ir comer tapioca
+        e acarajé a noite ouvindo
+        o tão adorado axé. <p>Visitamos outra praia histórica, a Praia de Belmonte, eu lembro que na época fiquei
+          encantada com essa praia por conta
+          de uma estátua enorme de carangueijo que embaixo dela haviam vários carangueijos, era a casinha deles mesmo
+          rs.</p>
+        <p>Na famosa Praia do Espelho em Trancoso, curtimos muito as belíssimas piscinas naturais formadas com
+          a maré baixa, e pela primeira vez comi lagosta na vida, eu me lembro que falei durante toda a viagem toda
+          sobre isso,
+          sonhava em comer lagosta depois que vi em um filme que eu assisti e reassisti várias vezes na época, "Splash:
+          Uma sereia em minha vida",
+          ainda em Trancoso conhecemos a Praia dos Coqueiros, lindo de viver!</p>
+
+    </div>
+
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../imagens/porto_seguro.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../imagens/portoseguro_belmonte.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../imagens/ps_memorial.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../imagens/ps_aldeia.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../imagens/trancoso.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../imagens/ps_rua.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../imagens/porto_seguro.png" style="width:100%" onclick="currentSlide(1)"
+            alt="Beach Park">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/portoseguro_belmonte.png" style="width:100%"
+            onclick="currentSlide(2)" alt="Praia de Belmonte">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/ps_memorial.png" style="width:100%" onclick="currentSlide(3)"
+            alt="Memorial do Descobrimento">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/ps_aldeia.png" style="width:100%" onclick="currentSlide(4)"
+            alt="Aldeia Indígena Pataxó">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/trancoso.png" style="width:100%" onclick="currentSlide(5)"
+            alt="Piscinas naturais de Trancoso">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/ps_rua.png" style="width:100%" onclick="currentSlide(6)"
+            alt="Rua do Mucugê">
+        </div>
+      </div>
+    </div>
+
 
     <h2>Guarapari / Espírito Santo </h2>
-    <img class="img_locais" src="../imagens/guarapari_praia-dos-namorados.jpg">
-    <p>Uma das minhas primeiras viagens, ainda muito pequena, foi para Fortaleza - Ceará. Minha família do lado materno
-      é toda de lá, minha avó mora na capital, então sempre que possível fazemos uma visita a ela e aproveitamos para
-      curtir
-      esse verdadeiro paraíso.
-      <p>Fortaleza é uma cidade que pode apresentar o melhor de dois mundos: áreas urbanizadas e desenvolvidas ou a
-        facilidade
-        de ir para praias pacatas, ideais para quem busca descanso. Com um litoral tão diverso como o cearense, muitas
-        pessoas
-        aproveitam a oportunidade para explorar diferentes praias do Estado, cada uma com uma beleza peculiar. Vale um
-        destaque
-        especial para o Beach Park (foto acima), considerado um dos melhores parques aquáticos do mundo, une uma
-        estrutura de ponta,
-        diversão
-        e o cenário espetacular do litoral brasileiro! Esse lugar é simplesmente incrível, e tem atrações para todas as
-        idades.</p>
-    </p>
+
+    <div class="texto">
+      <p>Fiz duas viagens para Guarapari, uma delas, a primeira, foi uma parada de dois dias na ida para Porto Seguro e
+        dois dias na volta, já que amamos o destinos e ainda havia muito o que conhecer. Mas apenas quatro dias não foi
+        o suficiente, anos mais tarde, inclusive já estava namorando aquele que hoje é o meu marido, retornamos a
+        Guarapari
+        pela segunda vez, agora como destino final, uma viagem de carro e com permanência de 14 dias.</p>
+      <p>Em ambas as viagens aproveitamos muito para conhecer, passamos por diversas praias e também pontos turísticos
+        históricos, não apenas na cidade de Guarapari mas sim em toda a sua região.</p>
+
+      <p>Um desses passeios foi na cidade de Vila Velha, fomos conhecer o tão tradicional Convento da Penha, e sim,
+        subimos
+        a famosa escadaria da Penha, realmente ela faz jus as refências, quando nos referimos a grande/imensas escadas
+        com o nome dela,
+        ela é realmente muito longa e inclinada, mas vale muito a pena, a vista é deslumbrante.
+      </p>
+      <p>Visitamos diversas praias, algumas delas em Guarapari mesmo, como a Praia dos Morros, Praia dos Namorados,
+        Praia da Sereia, entre várias
+        outras, mas a que mais me chamou a atenção foi a Praia de Setiba, Lá é muito bom para descansar, sair do
+        estresse e refletir. É uma praia
+        tranquila, sem ondas fortes e possui uma beleza natural que me encantou, além de restaurantes/quiosques
+        beira-mar muito bons.
+      </p>
+      <p>Durante nossa permanência nessa segunda viagem pudemos ir a um show da Ivete Sangalo, foi memorável, era um
+        show no
+        trio elétrico, então você pode imaginar a energia daquele lugar. O circo do Beto Carrero também estava na
+        cidade, e é
+        claro que não deixaríamos de ir, inclusive teve participação especial do meu marido com o palhaço rsrs.</p>
+      <p>Ambas as viagens foram simplesmente incríveis, adoro o Espiríto Santo e super recomendo!</p>
+
+    </div>
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../imagens/setiba.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../imagens/convento.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../imagens/praiaNamorados.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../imagens/recandoSereia.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../imagens/aquario.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../imagens/morro.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../imagens/setiba.png" style="width:100%"
+            onclick="currentSlide(1)" alt="Praia de Setiba">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/convento.png" style="width:100%"
+            onclick="currentSlide(2)" alt="Convento da Penha">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/praiaNamorados.png" style="width:100%" onclick="currentSlide(3)"
+            alt="Praia dos Namorados">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/recandoSereia.png" style="width:100%" onclick="currentSlide(4)"
+            alt="Praia Recanto da Sereia">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/aquario.png" style="width:100%" onclick="currentSlide(5)"
+            alt="Planet Sub Aquário Marinho">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/morro.png" style="width:100%" onclick="currentSlide(6)"
+            alt="Praia do Morro">
+        </div>
+      </div>
+    </div>
+
 
     <h2>Arraial do Cabo / Rio de Janeiro</h2>
-    <img class="img_locais" src="../imagens/arraial-do-cabo.jpg">
-    <p>Uma das minhas primeiras viagens, ainda muito pequena, foi para Fortaleza - Ceará. Minha família do lado materno
-      é toda de lá, minha avó mora na capital, então sempre que possível fazemos uma visita a ela e aproveitamos para
-      curtir
-      esse verdadeiro paraíso.
-      <p>Fortaleza é uma cidade que pode apresentar o melhor de dois mundos: áreas urbanizadas e desenvolvidas ou a
-        facilidade
-        de ir para praias pacatas, ideais para quem busca descanso. Com um litoral tão diverso como o cearense, muitas
-        pessoas
-        aproveitam a oportunidade para explorar diferentes praias do Estado, cada uma com uma beleza peculiar. Vale um
-        destaque
-        especial para o Beach Park (foto acima), considerado um dos melhores parques aquáticos do mundo, une uma
-        estrutura de ponta,
-        diversão
-        e o cenário espetacular do litoral brasileiro! Esse lugar é simplesmente incrível, e tem atrações para todas as
-        idades.</p>
-    </p>
+
+    <div class="texto">
+      <p>Ah Arraial, o que dizer sobre você? Só posso dizer que amo de todo coração esse lugar, uma beleza natural fora
+        de
+        série, praias lindas, passeios de escuna memoráveis, além de uma gastronomia de dar água na boca.</p>
+      <p>Tive a oportunidade de fazer duas viagens em família para Arraial, ambas de carro como de costume, em uma delas
+        nos hospedamos em
+        um Loft beira-mar na Prainha, e na segunda viagem optamos por nos hospedar na Praia do Forte (Cabo Frio), que
+        fica a poucos quilometros
+        de Arraial, porém é uma cidade mais estruturada no que se diz respeito a restaurantes, entretenimento e vida
+        noturna.
+      </p>
+      <p>A Praia do Forte em Cabo Frio é uma ótima opção para quem quer estar próximo a Arraial do Cabo e suas lindas
+        praias, mas
+        também ter um pouco de badalação e acesso a outras cidades próximas como Búzios, por exemplo.
+      </p>
+      <p>No retorno ainda dá para aproveitar e passar no Corcovado, foi o que fizemos, passeamos por vários pontos
+        turisticos
+        da cidade maravilhosa, a bordo do Trem do Corcovado, cuja estação fica no Cosme Velho acessamos nossa 1º
+        Maravilha do Mundo, o Cristo Redentor
+        é indescritível a sensação mágica em estar aos pés dele, realmente vale muito a pena conhecer.
+      </p>
+
+    </div>
+
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../imagens/arraial-do-cabo.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../imagens/buzios.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../imagens/cristo.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../imagens/forte.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../imagens/prainha.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../imagens/escuna.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../imagens/arraial-do-cabo.png" style="width:100%"
+            onclick="currentSlide(1)" alt="Pontal do Atalaia">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/buzios.png" style="width:100%"
+            onclick="currentSlide(2)" alt="Rua das Pedras - Búzios">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/cristo.png" style="width:100%" onclick="currentSlide(3)"
+            alt="Cristo Redentor - Rio de Janeiro">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/forte.png" style="width:100%" onclick="currentSlide(4)"
+            alt="Praia do Forte - Cabo Frio">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/prainha.png" style="width:100%" onclick="currentSlide(5)"
+            alt="Prainha">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/escuna.png" style="width:100%" onclick="currentSlide(6)"
+            alt="Passeio de escuna em Arraial">
+        </div>
+      </div>
+    </div>
+
 
     <h2>Bombinhas / Santa Catarina</h2>
-    <img class="img_locais" src="../imagens/bombinhas_sc.jpg">
-    <p>Uma das minhas primeiras viagens, ainda muito pequena, foi para Fortaleza - Ceará. Minha família do lado materno
-      é toda de lá, minha avó mora na capital, então sempre que possível fazemos uma visita a ela e aproveitamos para
-      curtir
-      esse verdadeiro paraíso.
-      <p>Fortaleza é uma cidade que pode apresentar o melhor de dois mundos: áreas urbanizadas e desenvolvidas ou a
-        facilidade
-        de ir para praias pacatas, ideais para quem busca descanso. Com um litoral tão diverso como o cearense, muitas
-        pessoas
-        aproveitam a oportunidade para explorar diferentes praias do Estado, cada uma com uma beleza peculiar. Vale um
-        destaque
-        especial para o Beach Park (foto acima), considerado um dos melhores parques aquáticos do mundo, une uma
-        estrutura de ponta,
-        diversão
-        e o cenário espetacular do litoral brasileiro! Esse lugar é simplesmente incrível, e tem atrações para todas as
-        idades.</p>
-    </p>
+
+    <div class="texto">
+      <p>Esse posso chamar de meu cantinho favorito no mundo (até onde conheço claro rs!), é uma cidade muito pacata e
+        segura,
+        com praias lindas de águas cristalinas e uma estrutura de restaurantes e entretenimento que não deixa a desejar,
+        eu simplesmente
+        amo Bombinhas.</p>
+      <p>Já fui para lá umas 8 vezes, viagens em família, em galera e também viagem romântica em casal, é uma cidade que
+        atende a
+        todos, com opções para todas as idades, mesmo sendo uma cidade bastante tranquila, possui muitos restaurantes,
+        barzinhos
+        com música ao vivo, opções de mergulho e esportes aquáticos, quiosques com funcionamento noturno e até mesmo
+        balada, além de estar muito próxima à
+        cidades mais badaladas como
+        Camburiú, por exemplo, o acesso de quem busca uma agitação maior fica muito facilitado.
+      </p>
+      <p>Com mais ou menos uma hora e meia de viagem fomos algumas vezes á Florianópolis, conhecemos várias praias como:
+        Joaquinas, Praia Mole, Praia dos Ingleses e também a Lagoa da Conceição, onde ficam localizados diversos
+        restaurantes
+        renomados com especialidade em frutos do mar e vários barzinhos aconchegantes, é sempre um lugar propício para
+        uma
+        noite muito agradável.
+      </p>
+      <p>As opções de hospedagem em Bombinhas são sempre muito satisfatórias e com excelente custo-benefício, sempre
+        ficamos na Praia de Bombas, mas ela fica do ladinho
+        da praia central, hoje inclusive há uma passarela e ciclovia que interligam uma praia a outra. Super indico esse
+        destino aos viajantes que amam praia e sossego.
+      </p>
+    </div>
+
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../imagens/bombas.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../imagens/cesar.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../imagens/bombinhas.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../imagens/lual.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../imagens/joaquinas.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../imagens/interpraias.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../imagens/bombas.png" style="width:100%"
+            onclick="currentSlide(1)" alt="Praia de Bombas">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/cesar.png" style="width:100%"
+            onclick="currentSlide(2)" alt="Restaurante César">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/bombinhas.png" style="width:100%" onclick="currentSlide(3)"
+            alt="Bombinhas">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/lual.png" style="width:100%" onclick="currentSlide(4)"
+            alt="Noite no quiosque Mestre das Águas">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/joaquinas.png" style="width:100%" onclick="currentSlide(5)"
+            alt="Joaquinas - Florianópolis">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/interpraias.png" style="width:100%" onclick="currentSlide(6)"
+            alt="Interpraias - Camburiú">
+        </div>
+      </div>
+    </div>
+
 
     <h2>Campos do Jordão / São Paulo</h2>
-    <img class="img_locais" src="../imagens/campos-do-jordao.jpg">
-    <p>Uma das minhas primeiras viagens, ainda muito pequena, foi para Fortaleza - Ceará. Minha família do lado materno
-      é toda de lá, minha avó mora na capital, então sempre que possível fazemos uma visita a ela e aproveitamos para
-      curtir
-      esse verdadeiro paraíso.
-      <p>Fortaleza é uma cidade que pode apresentar o melhor de dois mundos: áreas urbanizadas e desenvolvidas ou a
-        facilidade
-        de ir para praias pacatas, ideais para quem busca descanso. Com um litoral tão diverso como o cearense, muitas
-        pessoas
-        aproveitam a oportunidade para explorar diferentes praias do Estado, cada uma com uma beleza peculiar. Vale um
-        destaque
-        especial para o Beach Park (foto acima), considerado um dos melhores parques aquáticos do mundo, une uma
-        estrutura de ponta,
-        diversão
-        e o cenário espetacular do litoral brasileiro! Esse lugar é simplesmente incrível, e tem atrações para todas as
-        idades.</p>
-    </p>
-    <button><a href="#">Topo</a></button>
-  </section>
 
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- C A R O U S E L -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <section id="carousel">
-    
+    <div class="texto">
+      <p>Um destino romântico o qual eu tinha muita vontade de conhecer. Aproveitamos um encontro com grandes amigos que
+        fizemos
+        durante nossa permanência no Japão, para conhecer o destino, fomos à cidade de Taubaté, e após um dia
+        maravilhoso com nossos
+        tão queridos amigos seguimos para Campos.</p>
+      <p>Nos hospedamos bem pertinho do centro de Capivari, e é ali que está o point da cidade. Muitos restaurantes
+        especialistas em fondue,
+        parques, teleférico, lojas, e tudo isso com uma arquitetura que te transporta para a Europa. A gastronomia de
+        modo geral merece
+        todo um destaque, chocolates quentes, massas, fondues, petiscos, uma variedade de dar água na boca.
+      </p>
+      <p>Visitamos Campos do Jordão no mês de Julho, estava beeeeeem friozinho por lá, é engraçado, parece que tinha um ar condicionado na entrada da cidade rs,
+        em Taubaté, que fica a poucos quilômetros dali estava fresquinho, e lá dormimos até com aquecedor ligado. Foi um final de semana 
+        muito gostoso, estavámos na Suíça à poucos quilômetros de São Paulo. 
+      </p>
+    </div>
+
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+        <img src="../imagens/portal.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="../imagens/centrinho.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="../imagens/labirinto.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="../imagens/teleferico.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="../imagens/fondue.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="../imagens/prata.png" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="../imagens/portal.png" style="width:100%"
+            onclick="currentSlide(1)" alt="Portal da cidade">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/centrinho.png" style="width:100%"
+            onclick="currentSlide(2)" alt="Centrinho de Capivari">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/labirinto.png" style="width:100%" onclick="currentSlide(3)"
+            alt="Parque Amantikir">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/teleferico.png" style="width:100%" onclick="currentSlide(4)"
+            alt="Teleférico">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/fondue.png" style="width:100%" onclick="currentSlide(5)"
+            alt="Pátio Paris - Restaurantes de Fondue">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="../imagens/prata.png" style="width:100%" onclick="currentSlide(6)"
+            alt="Ducha de Prata">
+        </div>
+      </div>
+    </div>
+
+
+    <button><a href="#">Topo</a></button>
   </section>
 
   <!--=============================================================================================================== -->
@@ -215,7 +700,15 @@
       <h4>Desenvolvido por Jéssica Marques Nagata</h4>
     </footer>
   </section>
+
+  <!--=============================================================================================================== -->
+  <!-- ============================================================================================================== -->
+  <!-- S C R I P T S -->
+  <!-- ============================================================================================================== -->
+  <!-- ============================================================================================================== -->
   <script type="text/javascript" src="../main.js"></script>
+
+
 </body>
 
 </html>

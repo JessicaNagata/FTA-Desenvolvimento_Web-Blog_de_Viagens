@@ -3,15 +3,16 @@
 
 <head>
   <title> Viagens dos Sonhos</title>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
 
   <!-- VINCULA CSS NA PÁGINA  -->
-  <link rel="icon" type="imagem/png" href="../imagens/favicon.ico"/>
+  <link rel="icon" type="imagem/png" href="../imagens/favicon.ico" />
   <link rel="stylesheet" href="../style/main.css" />
   <link rel="stylesheet" href="../style/navbar.css" />
   <link rel="stylesheet" href="../style/chile.css" />
   <link rel="stylesheet" href="../style/footer.css" />
   <link rel="stylesheet" href="../style/sobre.css" />
+  <link rel="stylesheet" href="../style/carousel.css" />
 
   <!-- VINCULA BIBLIOTECA DE ICONES NA PÁGINA  -->
   <link href="../style/fontawesome/css/all.css" rel="stylesheet">
@@ -60,21 +61,133 @@
   <!-- ============================================================================================================== -->
   <!-- ============================================================================================================== -->
   <section id="sobre">
-  </section>
+      <h3>Santiago - Chile</h3>
+      <div class="texto">
+        <p> Viajamos para Santiago do Chile em março de 2015, junto com mais três casais de amigos. A primeira impressão
+          é de estarmos
+          na cidade de São Paulo, porém limpa, organizada e com toda a sua estrutura planejada.</p>
+        <p>Parte do primeiro dia de qualquer viagem é perdido com deslocamento, check-in
+          no hotel e, às vezes, trocando o dinheiro que levamos para a moeda local – em Santiago,
+          o melhor lugar para câmbio é a Rua Agustinas, no centro. Por conta disso, o ideal é não
+          contar com essas primeiras vinte e quatro horas como tempo útil no destino.
+          Caso sobre algum tempo livre depois de todas estas burocracias de férias, uma boa
+          dica é aproveitar o restinho do dia no bairro Bellavista, uma das vizinhanças mais
+          descoladas de Santiago onde não faltam paredes grafitadas, bares animados e
+          restaurantes para todos os bolsos.
+          Para um passeio cultural, o Museo Nacional de Bellas Artes, um dos melhores da
+          cidade e que tem entrada gratuita, se encontra a menos de um quilômetro de Bellavista.</p>
+        <p>Visitamos o Cerro
+          San Cristóbal é apenas uma das atrações do parque. O jeito mais prático para chegar ao
+          cume do cerro, e ser presentado com uma vista panorâmica de Santiago, é com os
+          funiculares – que partem justamente da entrada que fica ao lado da casa de Neruda.
+          Para voltar, a dica é descer de teleférico, e sair num outro ponto do parque, que
+          fica perto ao SKY Costanera, a próxima atração a ser visitada.</p>
+        <p>No bairro Providencia – bairro onde nos hospedamos – o SKY Costanera se destaca com seus 300 metros de altura
+          e é atualmente o
+          prédio mais alto da América do Sul. O acesso ao mirante é pelo Shopping Center
+          Costanera, um dos maiores shoppings de Santiago.
+          O visual mais bonito do mirante é no fim da tarde, quando o pôr do sol pinta o
+          céu – e a Cordilheira dos Andes – em tons alaranjados.</p>
+        <p>Certamente o clichê mais sedutor da capital chilena, visitar ao menos uma
+          vinícola é um programa que dificilmente fica de fora de um roteiro na cidade.
+          Embora existam literalmente dezenas de vinícolas para visitar pelos arredores de
+          Santiago, todas elas oferecem um tour com preços e dinâmicas semelhantes. Além de
+          contar a história do lugar e explicar o processo de fabricação do vinho, o passeio inclui
+          degustações da bebida símbolo do país.
+          Em média, o passeio mais básico por uma vinícola dura cerca de uma hora e meia.
+          Além deste, as vinícolas costumam oferecer também uma versão mais completa do tour,
+          que inclui maior quantidade de vinhos a ser provado, e tábua de frios e petiscos no
+          encerramento. Além de ser um pouco mais caro, esse passeio dura ao menos duas horas.
+          Três vinícolas próximas a Santiago que podem ser visitadas numa manhã ou tarde,
+          são: Concha y Toro, Undarraga ou Cousiño Macul. As três possuem agendamento pelos
+          seus sites oficiais, e nas três é possível chegar utilizando o transporte público de
+          Santiago.</p>
+          <p>Foi uma viagem memorável.</p>
+      </div>
 
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- C A R O U S E L -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <section id="viagens">
-  </section>
 
-  <!--=============================================================================================================== -->
-  <!-- ============================================================================================================== -->
-  <!-- R O D A P E -->
-  <!-- ============================================================================================================== -->
-  <!-- ============================================================================================================== -->
+      <!-- Container for the image gallery -->
+      <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="../imagens/chile_vinicola.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="../imagens/chile_valleNevado.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="../imagens/chile_cerroDeSanCristoban.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="../imagens/chile_bellavista.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="../imagens/chile_cerroDeSantaLucia.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="../imagens/chile_vista.png" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="../imagens/chile_vinicola.png" style="width:100%"
+              onclick="currentSlide(1)" alt="Vinícola Concha y Toro">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../imagens/chile_valleNevado.png" style="width:100%"
+              onclick="currentSlide(2)" alt="Valle Nevado">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../imagens/chile_cerroDeSanCristoban.png" style="width:100%" onclick="currentSlide(3)"
+              alt="Cerro San Cristóbal">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../imagens/chile_bellavista.png" style="width:100%" onclick="currentSlide(4)"
+              alt="Pátio Bellavista">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../imagens/chile_cerroDeSantaLucia.png" style="width:100%" onclick="currentSlide(5)"
+              alt="Cerro de Santa Lucia">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="../imagens/chile_vista.png" style="width:100%" onclick="currentSlide(6)"
+              alt="Vista do terraço do hotel">
+          </div>
+        </div>
+      </div>
+
+      <button><a href="#">Topo</a></button>
+
+    </section>
+
+
+    <!--=============================================================================================================== -->
+    <!-- ============================================================================================================== -->
+    <!-- R O D A P E -->
+    <!-- ============================================================================================================== -->
+    <!-- ============================================================================================================== -->
     <section id="footer">
       <footer>
         <ul id="redesSociais">
@@ -90,7 +203,14 @@
         <h4>Desenvolvido por Jéssica Marques Nagata</h4>
       </footer>
     </section>
- 
+
+    <!--=============================================================================================================== -->
+    <!-- ============================================================================================================== -->
+    <!-- S C R I P T S -->
+    <!-- ============================================================================================================== -->
+    <!-- ============================================================================================================== -->
+    <script type="text/javascript" src="../main.js"></script>
+
 </body>
 
 </html>
